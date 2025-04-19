@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORSAKEN drafts</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.jpg" alt="Logo" id="logo">
+            <h1>FORSAKEN Draftingtool</h1>
+        </div>
+    </header>
+    <main>
+        <div id="top-wrapper">
+            <div id="games"></div>
+            <div id="right-panel">
+                <div id="draft-controls">
+                    <button id="copy-draft">copy this draft</button>
+                    <button id="load-draft">upload existing draft</button>
+                </div>
+                <div id="filters">
+                    <button id="All"><img src="images/roles_icons/all.png" alt="All"></button>
+                    <button id="Top"><img src="images/roles_icons/top.png" alt="Top"></button>
+                    <button id="Jungle"><img src="images/roles_icons/jungle.png" alt="Jungle"></button>
+                    <button id="Mid"><img src="images/roles_icons/mid.png" alt="Mid"></button>
+                    <button id="ADC"><img src="images/roles_icons/adc.png" alt="ADC"></button>
+                    <button id="Support"><img src="images/roles_icons/support.png" alt="Support"></button>
+                    <button id="Flex"><img src="images/roles_icons/flex.png" alt="Flex"></button>
+                </div>
+                <div id="player-filters">
+                    <div class="player" data-player="Melonik">
+                        <img src="images/players/Melonik.png" alt="Melonik">
+                        <span>Melonik</span>
+                    </div>
+                    <div class="player" data-player="Cinkrof">
+                        <img src="images/players/Cinkrof.png" alt="Cinkrof">
+                        <span>Cinkrof</span>
+                    </div>
+                    <div class="player" data-player="Secrett">
+                        <img src="images/players/Secrett.png" alt="Secrett">
+                        <span>Secrett</span>
+                    </div>
+                    <div class="player" data-player="Odi11">
+                        <img src="images/players/Odi11.png" alt="Odi11">
+                        <span>Odi11</span>
+                    </div>
+                    <div class="player" data-player="Kaseko">
+                        <img src="images/players/Kaseko.png" alt="Kaseko">
+                        <span>Kaseko</span>
+                    </div>
+                </div>
+                <div id="controls">
+                    <input type="text" id="champion-search" placeholder="Search for a champion..." />
+
+                </div>
+            </div>
+        </div>
+        <div id="champion-list">Loading champions...</div>
+    </main>
+    <footer id="credits">
+        <p> ૮꒰˵• ﻌ •˵꒱ა  made by <strong>  Daenny Damnerys  </strong> .ᐟ.ᐟ </p>
+</footer>
+</body>
+</html>
